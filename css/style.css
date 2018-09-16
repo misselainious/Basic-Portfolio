@@ -1,5 +1,36 @@
+body{
+    font-family: Arial, Helvetics Neue, Helvetica, sans-serif;
+    color: #777777;
+    background: #ffffff;
+    width: 960px;
+}
+h1 {
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: #4aaaa5;
+    background: #ffffff;
+    border-color: #cccccc;
+}
 .primary-nav {
 	font-size: 14px;
     font-weight: 400;
-    color: blueviolet;
+}
+.mainImage {
+    width: 300px;
+    height: 167px;
+}
+
+.nameField {
+    color: red;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Portfolio Image Styling*/
+.portImages{
+    width: 200px;
+    height: 200px;
 }

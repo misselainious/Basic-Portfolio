@@ -60,8 +60,9 @@ h1 {
 }
 
 #headShot {
-    width: 300px;
-    height: 167px;
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
     display: inline-block;
     float: left;
     clear: both;
@@ -75,6 +76,9 @@ p {
     background: #ffffff;
     width: 960px;
     padding: 5px 0px 5px 0px;
+    letter-spacing: .02em;
+    line-height: 1.6em;
+    
 }
 
 /*.aboutMe {
@@ -144,24 +148,152 @@ footer {
 
 /*Portfolio Image Styling*/
 
+/*
 .portImages{
     width: 200px;
     height: 200px;
+    position: relative;
+    float: left;
+    clear: both;
 }
+/*
+.bucket{
+    position: absolute;
+    text-align: center;
+    background: #4aaaa5;
+    color: #ffffff;
+    margin: 10px;
+} */
 
+
+/*
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  
+  /*.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin: 20px;
+    vertical-align: middle;
+  }
+*/
+
+.box-set{
+    width: 275px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    float: left;
+    z-index: 1;
+    clear: both;
+  }
+
+.bucket{
+    width: 275px;
+    height: 200px;
+    position: relative;
+    /*float: left;*/
+}
+    .box1 {
+      top:25%;
+      left: 5%;
+  }
+    .box2 {
+      top: 25%;
+      left: 30%
+  }
+    .box3 {
+    top: 60%;
+    left: 5%
+}
+    .box4 {
+    top: 60%;
+    left: 30%
+}
+    .box5 {
+    top: 95%;
+    left: 5%
+}
+  .banner1{
+    background: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+    top:175px;
+    width: 275px;
+    height: 40px;
+    z-index: 2;
+    left: 5%;
+}
+.banner2{
+    background: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+    top:175px;
+    width: 275px;
+    height: 40px;
+    z-index: 2;
+    left: 5%;
+}
+.banner3{
+    background: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+    top:175px;
+    width: 275px;
+    height: 40px;
+    z-index: 2;
+    left: 5%;
+}
+.banner4{
+    background: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+    top:175px;
+    width: 275px;
+    height: 40px;
+    z-index: 2;
+    left: 5%;
+}
+.banner5{
+    background: #4aaaa5;
+    text-align: center;
+    color:#ffffff;
+    position: absolute;
+    top:175px;
+    width: 275px;
+    height: 40px;
+    z-index: 2;
+    left: 5%;
+}
+/*
 .abs{
     position: absolute;
 }
-
+*/
 
 /*Contact Styling*/
 
 input {
-    width: 100%;
+    width: 960px;
 }
 textarea {
-    width: 100%;
+    width: 960px;
     height: 200px;
+}
+
+label {
 }
 /*
 .nameField, .emailField, .messageField{
@@ -178,6 +310,6 @@ textarea {
 }
 
   .btn:hover {
-    background: #729c72;
-    color: #ffffff;
+    background: #A7AAA5;
+    color: #212105;
   }

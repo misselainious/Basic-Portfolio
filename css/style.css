@@ -1,84 +1,145 @@
+.mainPart {
+    width:960px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+a:hover {
+    color: #729c72
+}
+body{
+    font-family: Arial, Helvetics Neue, Helvetica, sans-serif;
+    color: #777777;
+    /*width: 960px;*/
+    background: #ffffff;
+    margin-left: 20px;
+    /*background-image: "topography.png";*/
+}
+
 /*About me*/
+header {
+    background: #ffffff;
+    width: 960px;
+    border-bottom: 5px solid #cccccc;
+    
+}
+.name {
+    font-family: Georgia, Times, Times New Roman, serif;
+    color: #ffffff;
+    background: #4aaaa5;
+    width: 300px;
+    text-align: center;
+    float: left;
+    padding: 30px;
+    margin: 35px 0px 0px 0px;
+    display: inline-block;
+}
 .container {
 	margin: 0 auto;
     width: 960px;
     display: inline-block;
-    /*clear: both;*/
-}
-
-header {
-    background: #ffffff;
-    width: 960px;
     border-bottom: 5px solid #cccccc
+    /*clear: both;*/
 }
 
 h1 {
     font-family: Georgia, Times, Times New Roman, serif;
     color: #4aaaa5;
     background: #ffffff;
-    border-bottom: 5px solid #cccccc;
+    font-size: 35px;
+    font-weight: bold;
+    /*border-bottom: 5px solid #cccccc;*/
 }
-.upperHeader {
-    font-family: Georgia, Times, Times New Roman, serif;
-    color: #ffffff;
-    background: #4aaaa5;
-    width: 250px;
-    text-align: center;
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#headShot {
+    width: 300px;
+    height: 167px;
+    display: inline-block;
     float: left;
-    padding: 25px;
+    clear: both;
+    padding: 20px 20px 10px 0px;
 }
-.primary-nav {
+
+
+
+p {
+    /*display: inline-block;*/
+    background: #ffffff;
+    width: 960px;
+    padding: 5px 0px 5px 0px;
+}
+
+/*.aboutMe {
+    display: inline-block;
+    clear: both;
+}*/
+
+
+/*Nav Bar*/
+
+
+.primary-nav{
     float: right;
+    margin: 55px 0px 55px 0px;
+}
+/*.primary-nav {
+    display: inline-block;
     font-size: 15px;
     font-weight: 400;
-    top: 50px;
-    padding: 40px;
+    top: 100px;
+    padding: 30px;
     background: #ffffff;
+    margin-top: 50px;
+    width: 960px;
+    float: right;
+    border-bottom: 5px solid #cccccc;
+    clear:both;
+    float: right;
 }
+*/
 .about, .portfolio {
+    /*width: 100%;
+    height: 100%;*/
+    padding: 0px 15px 0px 15px;
+    border-right: 2px solid #cccccc;
+}
+.contact {
+    padding-left: 15px;
+}
+/*.about, .portfolio {
     display: inline-block;
     border-right: 2px solid #777777;
-    padding: 0px 15px 0px 15px;
+    
     background: #ffffff;
+    margin-top: 50px;
+    float: right;
+    
 }
 .contact {
     padding: 0px 15px 0px 15px;
     background: #ffffff;
-}
-
-/*About Me Section*/
-p {
+    margin-top: 50px;
     display: inline-block;
-    background: #ffffff;
-    width: 960px;
+    float: right;
 }
-body{
-    font-family: Arial, Helvetics Neue, Helvetica, sans-serif;
-    color: #777777;
-    width: 960px;
+*/
+.meSec{
+    padding: 30px 0px 30px 0px;
 }
-.aboutMe {
-    display: inline-block;
-}
-.mainImage {
-    width: 300px;
-    height: 167px;
-    clear:both;
-    float: left;
-    display: inline-block;
-}
-
-
-.nameField .emailField .messageField{
-    clear: both;
-}
-
-
 footer {
     background: #666666;
     text-align: center;
     padding: 20px;
     border-top: 5px solid #4aaaa5;
+    width: 100%;
 }
 
 /*Portfolio Image Styling*/
@@ -92,12 +153,6 @@ footer {
     position: absolute;
 }
 
-.btn {
-    padding: 20px;
-    display: inline-block;
-    background: #4aaaa5;
-    color:#ffffff;
-}
 
 /*Contact Styling*/
 
@@ -106,4 +161,23 @@ input {
 }
 textarea {
     width: 100%;
+    height: 200px;
 }
+/*
+.nameField, .emailField, .messageField{
+    padding: 10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
+}
+*/
+.btn {
+    padding: 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    background: #4aaaa5;
+    color:#ffffff;
+}
+
+  .btn:hover {
+    background: #729c72;
+    color: #ffffff;
+  }

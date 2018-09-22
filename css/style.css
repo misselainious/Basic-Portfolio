@@ -1,5 +1,13 @@
+#wholeThing{
+    background-image: url(../images/topography.png);
+    align-content: center;
+}
+#banner{
+    width: 960px;
+}
 .mainPart {
     width:960px;
+    margin: auto;
 }
 
 a {
@@ -21,9 +29,9 @@ body{
 /*About me*/
 header {
     background: #ffffff;
-    width: 960px;
+    width: 100%;
+    height: 130px;
     border-bottom: 5px solid #cccccc;
-    
 }
 .name {
     font-family: Georgia, Times, Times New Roman, serif;
@@ -40,8 +48,13 @@ header {
 	margin: 0 auto;
     width: 960px;
     display: inline-block;
-    border-bottom: 5px solid #cccccc
+    border-bottom: 5px solid #cccccc;
     /*clear: both;*/
+
+}
+.meSec{
+    padding: 30px 0px 30px 0px;
+    margin-top: 30px;
 }
 
 h1 {
@@ -90,9 +103,10 @@ p {
 /*Nav Bar*/
 
 
-.primary-nav{
+nav{
     float: right;
     margin: 55px 0px 55px 0px;
+    width: 435px;
 }
 /*.primary-nav {
     display: inline-block;
@@ -109,7 +123,8 @@ p {
     float: right;
 }
 */
-.about, .portfolio {
+.about, 
+.portfolio {
     /*width: 100%;
     height: 100%;*/
     padding: 0px 15px 0px 15px;
@@ -135,15 +150,14 @@ p {
     float: right;
 }
 */
-.meSec{
-    padding: 30px 0px 30px 0px;
-}
+
 footer {
     background: #666666;
     text-align: center;
     padding: 20px;
     border-top: 5px solid #4aaaa5;
     width: 100%;
+    margin-top: 30px;
 }
 
 /*Portfolio Image Styling*/
@@ -186,108 +200,67 @@ footer {
   }
 */
 
+#portHead{
+    border-bottom: 5px solid #cccccc;
+}
+
 .box-set{
     width: 275px;
     height: 200px;
     object-fit: cover;
-    position: absolute;
-    float: left;
+   /* position: absolute;
+    /*float: left;*/
     z-index: 1;
-    clear: both;
+    /*clear: both;*/
   }
 
+#sectionImages{
+    max-width: 960px;
+    /*float: left;
+    clear: both;*/
+}
 .bucket{
     width: 275px;
     height: 200px;
     position: relative;
+    margin: 40px 40px 40px 0px;
+    display: inline-block;
+    clear: both;
     /*float: left;*/
 }
-    .box1 {
-      top:25%;
-      left: 5%;
-  }
-    .box2 {
-      top: 25%;
-      left: 30%
-  }
-    .box3 {
-    top: 60%;
-    left: 5%
+
+#pictures-section {
+    width: 960px;
 }
-    .box4 {
-    top: 60%;
-    left: 30%
-}
-    .box5 {
-    top: 95%;
-    left: 5%
-}
-  .banner1{
+.allBanners{
     background: #4aaaa5;
     text-align: center;
     color:#ffffff;
     position: absolute;
-    top:175px;
+    top:135px;
     width: 275px;
     height: 40px;
     z-index: 2;
-    left: 5%;
+
 }
-.banner2{
-    background: #4aaaa5;
-    text-align: center;
-    color:#ffffff;
-    position: absolute;
-    top:175px;
-    width: 275px;
-    height: 40px;
-    z-index: 2;
-    left: 5%;
+#portLinks{
+    color: white;
+    font-size: 20px;
 }
-.banner3{
-    background: #4aaaa5;
-    text-align: center;
-    color:#ffffff;
-    position: absolute;
-    top:175px;
-    width: 275px;
-    height: 40px;
-    z-index: 2;
-    left: 5%;
-}
-.banner4{
-    background: #4aaaa5;
-    text-align: center;
-    color:#ffffff;
-    position: absolute;
-    top:175px;
-    width: 275px;
-    height: 40px;
-    z-index: 2;
-    left: 5%;
-}
-.banner5{
-    background: #4aaaa5;
-    text-align: center;
-    color:#ffffff;
-    position: absolute;
-    top:175px;
-    width: 275px;
-    height: 40px;
-    z-index: 2;
-    left: 5%;
-}
-/*
-.abs{
-    position: absolute;
-}
-*/
+
 
 /*Contact Styling*/
+.contact-page{
+    width: 960px;
+}
 
+.secHead{
+    border-bottom: 5px solid #cccccc;
+}
 input {
     width: 960px;
 }
+
 textarea {
     width: 960px;
     height: 200px;
